@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace DigitRecognizer
 {
-    class Program
+    class Observation
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
