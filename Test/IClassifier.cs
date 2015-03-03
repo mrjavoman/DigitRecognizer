@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DigitRecognizer
 {
-    public interface IDistance
+    public interface IClassifier
     {
-        double Between(int[] pixels1, int[] pixels2);
+        void Train(IEnumerable<Observation> trainingSet);
+        string Predict(int[] pixels);
     }
 }
