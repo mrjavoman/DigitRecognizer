@@ -10,6 +10,10 @@ namespace DigitRecognizer
     {
         static void Main(string[] args)
         {
+            var trainingPath = @"C:\Users\xavi\Dropbox\Dev work\Machine Learning for .NET Developers\trainingsample.csv";
+            var training = DataReader.ReadObservations(trainingPath);
+            
+            Console.ReadLine();
         }
     }
 }
